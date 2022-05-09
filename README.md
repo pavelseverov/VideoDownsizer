@@ -7,6 +7,6 @@ Only magic FFmpeg can handle it, with just one (but long) command line. So...
 This script resizes any video files to MP4, 720x720 box, keeping aspect ratio and original file timestamp. Smaller videos will not be enlarged.
 
   1) Install FFmpeg: https://ffmpeg.org/download.html
-  2) Redefine script's variables: `FOLDER_INPUT, FOLDER_OUTPUT, FFMPEG`
+  2) Redefine script's variables: `FOLDER_INPUT`, `FOLDER_OUTPUT`, `FFMPEG`
   3) Run the script: `powershell .\VideoDownsizer.ps1`
   4) Enjoy! :-)
